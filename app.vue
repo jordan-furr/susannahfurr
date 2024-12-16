@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import SusannahHeader from './component/susannah-header.vue';
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+  <div class="app">
+    <SusannahHeader />
+    <NuxtPage />
   </div>
 </template>
