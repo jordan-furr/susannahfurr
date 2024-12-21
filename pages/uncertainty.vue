@@ -1,7 +1,7 @@
 <template>
-    <div class="flex-col">
-        <div class="pv3">
-            <img class="w-100" src="/img/upsideofuncertainty.png" alt="">
+    <div class="flex-col page">
+        <div class="pt3 pb2 text-center">
+            <img class="w-90" src="/img/upsideofuncertainty.png" alt="">
         </div>
         <div class="pa20">
             <h1>The Upside of Uncertainty</h1>

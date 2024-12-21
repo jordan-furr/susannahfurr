@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-col">
+    <div class="flex-col page">
         <div>
             <img class="w-100" src="/img/susannahfurrkeynotespeaker.webp" alt="">
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-col">
+    <div class="flex-col page">
         <div class="pa20">
             <p class="pronk">Pronk</p>
             <p>Pronk is a Dutch word describing the display of one's best and is the name of the clothing label Susannah
