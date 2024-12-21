@@ -480,6 +480,14 @@ h6 {
     padding-bottom: 1.5rem;
 }
 
+.pb5 {
+    padding-bottom: 2rem;
+}
+
+.pb6 {
+    padding-bottom: 3rem;
+}
+
 .ma1 {
     margin: 0.25rem;
 }
@@ -768,6 +776,15 @@ h6 {
 h1 {
     font-weight: normal;
     font-size: 24px;
+    margin-bottom: 12px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: var(--olive);
 }
 
 
@@ -847,6 +864,29 @@ h1 {
     color: black;
     text-decoration: none;
     font-weight: bold;
+}
+
+
+/* PAGES */
+
+.interior {
+    border-top: 2px solid var(--olive);
+}
+
+.interior p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+}
+
+.pronk {
+    font-size: 40px;
+    font-weight: 700;
+    color: #5a82b3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 

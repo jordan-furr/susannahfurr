@@ -22,7 +22,7 @@
                             <nuxt-link to="/interiors" class="menu-item" exact-active-class="active">interiors</nuxt-link>
                         </div>
                         <div class="block">
-                            <nuxt-link to="/manifesto" class="menu-item" exact-active-class="active">manifesto</nuxt-link>
+                            <nuxt-link to="/about" class="menu-item" exact-active-class="active">about</nuxt-link>
                         </div>
                     </div>
                     <!--Mobile Menu-->

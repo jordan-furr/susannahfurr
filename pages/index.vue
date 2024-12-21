@@ -5,6 +5,7 @@
         </div>
         <div class="pa20">
             <h1>Susannah Harmon Furr</h1>
+            
         </div>
     </div>
 </template>

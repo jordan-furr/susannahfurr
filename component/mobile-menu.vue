@@ -24,8 +24,8 @@
                     </nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/manifesto" class="menu-item" @click="closeMenu" exact-active-class="active">
-                        <p>manifesto</p>
+                    <nuxt-link to="/about" class="menu-item" @click="closeMenu" exact-active-class="active">
+                        <p>about</p>
                     </nuxt-link>
                 </li>
             </ul>
