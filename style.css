@@ -756,6 +756,14 @@ h6 {
     --green: #4E7557;
 }
 
+.html  {
+    background-color: var(--olive);
+}
+
+h1,h2,h3,h4,p {
+    color: white;
+}
+
 .ph20 {
     padding-left: 20px;
     padding-right: 20px
@@ -777,11 +785,11 @@ h1 {
 }
 
 a {
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: var(--olive);
+    color: var(--yellow);
 }
 
 .bg-olive {
@@ -816,6 +824,14 @@ a:hover {
     text-decoration-thickness: 3px;
 }
 
+.mobile-menu .active p {
+    color: var(--yellow);
+}
+
+.mobile-menu .menu-item:hover  {
+    text-decoration: none;
+}
+
 .menu-icon {
     font-size: 36px;
     position: absolute;
@@ -825,6 +841,23 @@ a:hover {
     z-index: 1000;
     color: white;
     padding-bottom: 2px;
+}
+
+.menu-overlay .logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.menu-overlay .socials {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.social {
+    width: 28px;
+    padding-right: 18px;
 }
 
 .menu-overlay {
@@ -837,6 +870,8 @@ a:hover {
     color: white;
     display: flex;
     z-index: 999;
+    align-items: center;
+    overflow-y: hidden;
 }
 
 .menu-overlay nav ul {
@@ -844,7 +879,7 @@ a:hover {
     padding: 0;
     text-align: left;
     margin-left: 20px;
-    margin-top: 4rem;
+    
 }
 
 .menu-overlay nav ul li {
@@ -854,7 +889,7 @@ a:hover {
 .menu-overlay nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 36px;
 }
 
 .email-button {
@@ -866,11 +901,15 @@ a:hover {
     text-decoration: none;
 }
 
+.email-button:hover {
+    background-color: white;
+}
+
 
 /* PAGES */
 
 .interior {
-    border-top: 2px solid var(--olive);
+    border-top: 1px solid var(--yellow);
 }
 
 .interior p {
@@ -880,13 +919,20 @@ a:hover {
 }
 
 .pronk {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
-    color: #5a82b3;
+    color: var(--yellow);
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
+    letter-spacing: 0.15rem;
+}
+
+.home {
+    background-color: var(--olive);
+    text-align: center;
+    padding-bottom: 4rem;
 }
 
 .titles {
@@ -894,19 +940,39 @@ a:hover {
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-    padding: 20px;
     font-weight: 900;
     font-size: 28px;
     line-height: 1.25;
     margin-bottom: 1rem;
 }
 
-.index-landing-name {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 80px;
+.page-titles {
+    color: var(--olive);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: var(--olive);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: .5rem;
+}
+
+.year {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 .name {
@@ -914,18 +980,25 @@ a:hover {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-weight: 900;
-    font-size: 80px;
-    line-height: 80px;
-    margin-bottom: 2rem;
+    font-size: 124px;
+    margin-bottom: 1.5rem;
     letter-spacing: 0.03rem;
 }
 
-.index-landing-name p {
+.bio  {
     font-size: 22px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: white;
 }
 
+.page {
+    background-color: var(--olive);
+    min-height: 90vh;
+}
+
+.book {
+    margin-bottom: 2rem;
+}
 
 
 
@@ -933,6 +1006,12 @@ a:hover {
 
 
 /* MEDIA */
+
+@media (min-width: 600px) {
+    .bio {
+        width: 84%;
+    }
+}
 
 @media (max-width: 799px) {
     .header-nav-list {
@@ -953,6 +1032,18 @@ a:hover {
     .page {
         padding: 0px 120px 20px 120px;
     }
+    .bio {
+        width: 75%;
+    }
+    .pa20 {
+        padding: 20px 0;
+    }
+    .web-row {
+        flex-direction: row;
+    }
+    .web-66 {
+        width: 66%;
+    }
 }
 
 @media (min-width: 1260px) {
@@ -962,6 +1053,12 @@ a:hover {
     .page {
         padding: 0px 220px 20px 220px;
     }
+    .bio {
+        width: 70%;
+    }
+    .keynote-img {
+        width: 80%;
+    }
 }
 
 @media (min-width: 1360px) {
@@ -970,6 +1067,9 @@ a:hover {
     }
     .page {
         padding: 0px 240px 20px 240px;
+    }
+    .bio {
+        width: 60%;
     }
 }
 

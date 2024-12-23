@@ -10,16 +10,16 @@
                     <!--Main Menu-->
                     <div class="header-nav-list flex-row">
                         <div class="block">
-                            <nuxt-link to="/booking" class="menu-item" exact-active-class="active">booking</nuxt-link>
-                        </div>
-                        <div class="block">
-                            <nuxt-link to="/uncertainty" class="menu-item" exact-active-class="active">uncertainty</nuxt-link>
+                            <nuxt-link to="/author" class="menu-item" exact-active-class="active">author</nuxt-link>
                         </div>
                         <div class="block">
                             <nuxt-link to="/pronk" class="menu-item" exact-active-class="active">pronk</nuxt-link>
                         </div>
                         <div class="block">
                             <nuxt-link to="/interiors" class="menu-item" exact-active-class="active">interiors</nuxt-link>
+                        </div>
+                        <div class="block">
+                            <nuxt-link to="/booking" class="menu-item" exact-active-class="active">booking</nuxt-link>
                         </div>
                         <div class="block">
                             <nuxt-link to="/about" class="menu-item" exact-active-class="active">about</nuxt-link>
