@@ -8,9 +8,7 @@
             <div class="pa20">
                 <h1 class="title">The Earnest Project</h1>
                 <p class="year">2025</p>
-                <p>Susannah has researched and taught on transforming uncertainty into possibility. Susannah co-authored
-                    <em>The Upside of Uncertainty</em> with her spouse <span><a href="https://nathanfurr.com/"
-                            target="_">Nathan R. Furr.</a></span></p>
+                <p>Can Earnestness Change The World? Susannah's research question is: can living earnestly sustain a life, a couple, a family, a team, a company? Is it contagious? Inherited? How do you nurture it? When does it disappear?</p>
             </div>
         </div>
         <div class="book">

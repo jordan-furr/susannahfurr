@@ -816,6 +816,11 @@ a:hover {
     color: white;
 }
 
+.logo-name {
+    text-decoration: none;
+    color: white;
+}
+
 .menu-item:hover,.active {
     text-decoration: underline;
     text-decoration-color: var(--yellow);
