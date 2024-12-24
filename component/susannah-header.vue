@@ -3,7 +3,7 @@
         <div class="flex-row space-between block align-center">
             <!--Logo-->
             <div class="logo">
-                <nuxt-link to="/" class="menu-item">Susannah Harmon Furr</nuxt-link>
+                <nuxt-link to="/" class="logo-name">Susannah Harmon Furr</nuxt-link>
             </div>
             <div class="block flex-row ">
                 <div class="block borderbox">
